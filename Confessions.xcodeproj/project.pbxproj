@@ -11,6 +11,18 @@
 		ED7EF85228B27A66009BEE89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF85128B27A66009BEE89 /* ContentView.swift */; };
 		ED7EF85428B27A66009BEE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7EF85328B27A66009BEE89 /* Assets.xcassets */; };
 		ED7EF85728B27A66009BEE89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7EF85628B27A66009BEE89 /* Preview Assets.xcassets */; };
+		ED7EF86928B27AA2009BEE89 /* ConfessionsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF85E28B27AA2009BEE89 /* ConfessionsFeedView.swift */; };
+		ED7EF86A28B27AA2009BEE89 /* ConfessionsNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF85F28B27AA2009BEE89 /* ConfessionsNetworkManager.swift */; };
+		ED7EF86B28B27AA2009BEE89 /* SubmitConfessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF86028B27AA2009BEE89 /* SubmitConfessionView.swift */; };
+		ED7EF86C28B27AA2009BEE89 /* ConfessionsFeedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF86128B27AA2009BEE89 /* ConfessionsFeedCellView.swift */; };
+		ED7EF86D28B27AA2009BEE89 /* ConfessionsCommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF86228B27AA2009BEE89 /* ConfessionsCommentsView.swift */; };
+		ED7EF86E28B27AA2009BEE89 /* FullyCombinedConfessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF86328B27AA2009BEE89 /* FullyCombinedConfessions.swift */; };
+		ED7EF86F28B27AA2009BEE89 /* ConfessionsComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF86528B27AA2009BEE89 /* ConfessionsComment.swift */; };
+		ED7EF87028B27AA2009BEE89 /* SpecialScrolly.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF86628B27AA2009BEE89 /* SpecialScrolly.swift */; };
+		ED7EF87128B27AA2009BEE89 /* ConfessionsFeedWithComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF86728B27AA2009BEE89 /* ConfessionsFeedWithComments.swift */; };
+		ED7EF87228B27AA2009BEE89 /* ConfessionsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF86828B27AA2009BEE89 /* ConfessionsExtensions.swift */; };
+		ED7EF87528B27AC4009BEE89 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = ED7EF87428B27AC4009BEE89 /* SwiftyJSON */; };
+		ED7EF87728B27B00009BEE89 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7EF87628B27B00009BEE89 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		ED7EF85128B27A66009BEE89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED7EF85328B27A66009BEE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED7EF85628B27A66009BEE89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED7EF85E28B27AA2009BEE89 /* ConfessionsFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfessionsFeedView.swift; path = Confessions/Confessions/ConfessionsFeedView.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF85F28B27AA2009BEE89 /* ConfessionsNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfessionsNetworkManager.swift; path = Confessions/Confessions/ConfessionsNetworkManager.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF86028B27AA2009BEE89 /* SubmitConfessionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubmitConfessionView.swift; path = Confessions/Confessions/SubmitConfessionView.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF86128B27AA2009BEE89 /* ConfessionsFeedCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfessionsFeedCellView.swift; path = Confessions/Confessions/ConfessionsFeedCellView.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF86228B27AA2009BEE89 /* ConfessionsCommentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfessionsCommentsView.swift; path = Confessions/Confessions/ConfessionsCommentsView.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF86328B27AA2009BEE89 /* FullyCombinedConfessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullyCombinedConfessions.swift; path = Confessions/Confessions/FullyCombinedConfessions.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF86428B27AA2009BEE89 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = Confessions/Confessions/MyPlayground.playground; sourceTree = SOURCE_ROOT; };
+		ED7EF86528B27AA2009BEE89 /* ConfessionsComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfessionsComment.swift; path = Confessions/Confessions/ConfessionsComment.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF86628B27AA2009BEE89 /* SpecialScrolly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecialScrolly.swift; path = Confessions/Confessions/SpecialScrolly.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF86728B27AA2009BEE89 /* ConfessionsFeedWithComments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfessionsFeedWithComments.swift; path = Confessions/Confessions/ConfessionsFeedWithComments.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF86828B27AA2009BEE89 /* ConfessionsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfessionsExtensions.swift; path = Confessions/Confessions/ConfessionsExtensions.swift; sourceTree = SOURCE_ROOT; };
+		ED7EF87628B27B00009BEE89 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7EF87528B27AC4009BEE89 /* SwiftyJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +60,7 @@
 		ED7EF84328B27A66009BEE89 = {
 			isa = PBXGroup;
 			children = (
+				ED7EF87628B27B00009BEE89 /* Extensions.swift */,
 				ED7EF84E28B27A66009BEE89 /* Confessions */,
 				ED7EF84D28B27A66009BEE89 /* Products */,
 			);
@@ -51,6 +77,7 @@
 		ED7EF84E28B27A66009BEE89 /* Confessions */ = {
 			isa = PBXGroup;
 			children = (
+				ED7EF85D28B27A90009BEE89 /* C */,
 				ED7EF84F28B27A66009BEE89 /* ConfessionsApp.swift */,
 				ED7EF85128B27A66009BEE89 /* ContentView.swift */,
 				ED7EF85328B27A66009BEE89 /* Assets.xcassets */,
@@ -65,6 +92,24 @@
 				ED7EF85628B27A66009BEE89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED7EF85D28B27A90009BEE89 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				ED7EF86528B27AA2009BEE89 /* ConfessionsComment.swift */,
+				ED7EF86228B27AA2009BEE89 /* ConfessionsCommentsView.swift */,
+				ED7EF86828B27AA2009BEE89 /* ConfessionsExtensions.swift */,
+				ED7EF86128B27AA2009BEE89 /* ConfessionsFeedCellView.swift */,
+				ED7EF85E28B27AA2009BEE89 /* ConfessionsFeedView.swift */,
+				ED7EF86728B27AA2009BEE89 /* ConfessionsFeedWithComments.swift */,
+				ED7EF85F28B27AA2009BEE89 /* ConfessionsNetworkManager.swift */,
+				ED7EF86328B27AA2009BEE89 /* FullyCombinedConfessions.swift */,
+				ED7EF86428B27AA2009BEE89 /* MyPlayground.playground */,
+				ED7EF86628B27AA2009BEE89 /* SpecialScrolly.swift */,
+				ED7EF86028B27AA2009BEE89 /* SubmitConfessionView.swift */,
+			);
+			path = C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +128,9 @@
 			dependencies = (
 			);
 			name = Confessions;
+			packageProductDependencies = (
+				ED7EF87428B27AC4009BEE89 /* SwiftyJSON */,
+			);
 			productName = Confessions;
 			productReference = ED7EF84C28B27A66009BEE89 /* Confessions.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +159,9 @@
 				Base,
 			);
 			mainGroup = ED7EF84328B27A66009BEE89;
+			packageReferences = (
+				ED7EF87328B27AC4009BEE89 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = ED7EF84D28B27A66009BEE89 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +188,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7EF87028B27AA2009BEE89 /* SpecialScrolly.swift in Sources */,
+				ED7EF86E28B27AA2009BEE89 /* FullyCombinedConfessions.swift in Sources */,
+				ED7EF86D28B27AA2009BEE89 /* ConfessionsCommentsView.swift in Sources */,
 				ED7EF85228B27A66009BEE89 /* ContentView.swift in Sources */,
+				ED7EF86A28B27AA2009BEE89 /* ConfessionsNetworkManager.swift in Sources */,
 				ED7EF85028B27A66009BEE89 /* ConfessionsApp.swift in Sources */,
+				ED7EF86B28B27AA2009BEE89 /* SubmitConfessionView.swift in Sources */,
+				ED7EF86928B27AA2009BEE89 /* ConfessionsFeedView.swift in Sources */,
+				ED7EF87728B27B00009BEE89 /* Extensions.swift in Sources */,
+				ED7EF87228B27AA2009BEE89 /* ConfessionsExtensions.swift in Sources */,
+				ED7EF87128B27AA2009BEE89 /* ConfessionsFeedWithComments.swift in Sources */,
+				ED7EF86C28B27AA2009BEE89 /* ConfessionsFeedCellView.swift in Sources */,
+				ED7EF86F28B27AA2009BEE89 /* ConfessionsComment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +401,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED7EF87328B27AC4009BEE89 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED7EF87428B27AC4009BEE89 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED7EF87328B27AC4009BEE89 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED7EF84428B27A66009BEE89 /* Project object */;
 }
